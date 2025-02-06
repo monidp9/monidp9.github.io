@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Books | Monteiro Del Prete</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="pub/logo.png" type="image/png">
+
+        <style>
+            #sort-text {
+                cursor: pointer;
+                color: blue;
+                text-decoration: underline;
+                float: right;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Monteiro Del Prete</h1>
+        <h2>My library</h2>
+        <p>
+            The following is a list of books with a brief personal opinion and rating.
+        <hr>
+        <span id="sort-text">sort by rating</span>
+        <div class="container">
+            <!-- Back button -->
+            <a href="index.html" class="back-button">
+                <span class="arrow">Back</span>
+            </a>
+    
+            <!-- Book list -->
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/zen.jpg">
+                    <div class="book-description" data-vote="8">
+                        <div class="book-title">Zen And The Art Of Motorcycle Maintenance</div>
+                        <div class="book-author">Robert M. Pirsig - <strong>8</strong>/10</div>
+                        <div class="book-summary">
+                            At the beginning I hadn't a concrete opinion about this book. As with great movies, you need time to
+                            mature what you saw. Personally speaking, during philosophical talks usually I feel lost. It seems so 
+                            abstract to me. Nonetheless, the way Pirsig connect the concept of quality with the motorcycle maintenance,
+                            personal life and the world is stunning. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/universal_computer.jpg">
+                    <div class="book-description" data-vote="5">
+                        <div class="book-title">The Universal Computer</div>
+                        <div class="book-author">Martin Davis - <strong>5</strong>/10</div>
+                        <div class="book-summary">
+                            As my passion for computer science history grew, I followed my professor suggestion and bougth this book. It is full of
+                            historical facts, great names and a lot of dates. The most important concept can be summarized in few words: even little 
+                            ideas can grow and shake the world.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/homo_deus.jpg">
+                    <div class="book-description" data-vote="10">
+                        <div class="book-title">Homo Deus: A Brief History of Tomorrow</div>
+                        <div class="book-author">Yuval Noah Harari - <strong>10</strong>/10 <span class="rating"></span> </div>
+                        <div class="book-summary">
+                            I just fell in love with this book. Harari is in my top three people whose words are 
+                            printed in my head. Here his perspective is completely visionary. What is our 
+                            society goal for this century? Are we playing gods too much? Where are we moving toward?
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/sapiens.jpg">
+                    <div class="book-description" data-vote="9">
+                        <div class="book-title">Sapiens: A Brief History of Humankind </div>
+                        <div class="book-author">Yuval Noah Harari - <strong>9</strong>/10</div>
+                        <div class="book-summary">
+                            I started this book because I wanted to know more about our history. Why are we the first race? Where do we come from?
+                             I will go out on a limb and say that there is no better book than this one for these questions. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/a_short_history_bryson.jpg">
+                    <div class="book-description" data-vote="8">
+                        <div class="book-title">A Short History of Nearly Everything</div>
+                        <div class="book-author">Bill Bryson - <strong>8</strong>/10</div>
+                        <div class="book-summary">
+                            There are a lot of things I don't know. It is hard to solve this problem just by reading
+                            one book. No book can accomplish this. Nonetheless, Bryson's description of nearly everything 
+                            is a good way to nurish your couriosity and perhaps going deep on some topic. It is not a 10/10
+                            due to some (very few) parts with a bunch of names and facts.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/the_alchemist.jpg">
+                    <div class="book-description" data-vote="6.5">
+                        <div class="book-title">The Alchemist</div>
+                        <div class="book-author">Paulo Coelho - <strong>6.5</strong>/10</div>
+                        <div class="book-summary">
+                            Honestly I had a lot of expectations. It is an introspective journey peppered with too much
+                            religion and spiritualism. When I say "too much" it is referred to an atheist (me). However
+                            I have never given bias a chance to influence my experience. So that's why I tried. It still remains a good trip.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/how_to_live.jpg">
+                    <div class="book-description" data-vote="9">
+                        <div class="book-title">How to live</div>
+                        <div class="book-author">Derek Sivers - <strong>9</strong>/10</div>
+                        <div class="book-summary">
+                            Derek Sivers is one of those people I take inspiration from. Even though the title is a bit pretentious, the "rules"
+                            pointed out make people think. Perhaps some of these may be contradictory; one cannot try to follow them all at the same time.
+                            It was probably not supposed to be done. However some of the "rules" are incredible. This is my favorite: "Make Memories".
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/underground_dostoevsky.jpg">
+                    <div class="book-description" data-vote="6">
+                        <div class="book-title">Notes from underground</div>
+                        <div class="book-author">Fyodor Dostoevsky - <strong>6</strong>/10</div>
+                        <div class="book-summary">
+                            This was my first meeting with Dostoevsky. At the end I felt like a neo-reader. Perhaps its style is not for me, or I'm not
+                            able to comprehend deeply. The character and his behavior were the only things that fascinated me.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/morte_saramago.jpg">
+                    <div class="book-description" data-vote="8">
+                        <div class="book-title">Death with interruptions</div>
+                        <div class="book-author">José Saramago - <strong>8</strong>/10</div>
+                        <div class="book-summary">
+                            I read this because Saramago is my father's favourite author. And my father is a book hunter. He was right. What would happen
+                            if the death went on vacation without killing anymore? Even more interesting: how can the death be affected by human feelings? 
+                            Saramago's writing is not for everyone, but I understood why he was a Nobel price winner.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/tamburrini.jpg">
+                    <div class="book-description" data-vote="7">
+                        <div class="book-title">Computer's ethic: AI and robotics moral issues</div>
+                        <div class="book-author">Guglielmo Tamburrini - <strong>7</strong>/10</div>
+                        <div class="book-summary">
+                            The author was my professor at university and the book was summarized in his lecture "Psychological and Ethical Issues in
+                            AI". This reading just opened my mind on my future studies. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/flatlandia.jpg">
+                    <div class="book-description" data-vote="7">
+                        <div class="book-title">Flatland</div>
+                        <div class="book-author">Edwin A. Abbott - <strong>7</strong>/10</div>
+                        <div class="book-summary">
+                            A story in multiple dimensions. A society in which each individual lives on a single line. A more fortunate society has developed
+                            in a 2D space where invaders from the 3D world come together creating havoc: like a sphere becoming an expanding circle.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/why_we_sleep.jpg">
+                    <div class="book-description" data-vote="10">
+                        <div class="book-title">Why We Sleep</div>
+                        <div class="book-author">Matthew Walker - <strong>10</strong>/10</div>
+                        <div class="book-summary">
+                            One of those life changing book. I'm grateful I've read this at my age, I was too ignorant. Matthew makes you
+                            fall in love with all concerning the sleep. After this you will change your bed time.
+                        </div> 
+                    </div>
+                </div>
+            </div>         
+
+            <div class="book-list">
+               <div class="book-item">
+                   <img src="pub/books/origin.jpg">
+                   <div class="book-description" data-vote="10">
+                    <div class="book-title">Origin</div>
+                    <div class="book-author">Dan Brown - <strong>10</strong>/10</div>
+                    <div class="book-summary">
+                        I usually prefer scientific and popular essays, but this time was different. This novel strikes a different chord. Dan Brown tries to explain 
+                        with his narrative the most important questions of our century: Where do we come from? Where are we going? The answers are incredibly real.
+                    </div> 
+                   </div> 
+               </div> 
+            </div>
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="pub/books/crypto.jpg">
+                    <div class="book-description" data-vote="8">
+                     <div class="book-title">Crypto</div>
+                     <div class="book-author">Dan Brown - <strong>8</strong>/10</div>
+                     <div class="book-summary">
+                         Since I finished the book I consider Dan Brown my diamond arrow among novel authors. A great story, well written characters, fast-paced storytelling.
+                         I fall in love with the details and there are quite a few in the story.
+                     </div> 
+                    </div> 
+                </div> 
+             </div>
+
+            <button class="scroll-to-top" onclick="scrollToTop()">Back to Top</button>
+
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const sortText = document.getElementById('sort-text');
+
+                sortText.addEventListener('click', function () {
+                    const container = document.querySelector('.container');
+                    const bookLists = Array.from(container.querySelectorAll('.book-list'));
+
+                    bookLists.sort((a, b) => {
+                        const voteA = parseInt(a.querySelector('.book-description').getAttribute('data-vote'), 10);
+                        const voteB = parseInt(b.querySelector('.book-description').getAttribute('data-vote'), 10);
+                        return voteB - voteA; // Sort in descending order
+                    });
+
+                    bookLists.forEach(item => item.remove());
+                    bookLists.forEach(item => container.appendChild(item));
+                });
+            });
+
+            // Function to scroll to the top of the page
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+    
+            // Show scroll-to-top button when scrolling down
+            window.onscroll = function() {
+                const scrollToTopButton = document.querySelector('.scroll-to-top');
+                if (document.documentElement.scrollTop > 100) {
+                    scrollToTopButton.style.display = 'block';
+                } else {
+                    scrollToTopButton.style.display = 'none';
+                }
+            };
+        </script>
+    </body>
+</html>

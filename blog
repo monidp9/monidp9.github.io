@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog | Monteiro Del Prete</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="pub/logo.png" type="image/png">
+    </head>
+    <body>
+        <h1>Monteiro Del Prete</h1>
+        <h2>My thoughts</h2>
+        <p>
+            Hope they are worth reading.
+        </p>
+        <hr>
+        <div class="container">
+            <!-- Back button -->
+            <a href="index.html" class="back-button">
+                <span class="arrow">Back</span>
+            </a>
+            <div class="thought-item">
+                <h3>Not for rookies</h3>
+                <h4>12/01/2025</h4>
+                <p>
+                    The tech world is only for experienced minds. There is no
+                    more growth, you must have already grown up. What matters 
+                    now is to train artificial neural networks, not biological.
+                     It would be a waste of time. 
+                </p>
+                <p>
+                    This market only wants your experience without giving any.
+                    There is no place for rookies. No one wants to master the 
+                    art of shaping new minds anymore.
+                </p>
+            </div>
+            <div class="thought-item">
+                <h3>It's not hard, it's just new</h3>
+                <h4>11/01/2025</h4>
+                <p>
+                    I have always been afraid of the unknown. It fuels negative 
+                    thoughts, I feel uncomfortable and usually freezes me. In front 
+                    of it I always felt small. Like having a giant blocking your path. 
+                    Knowing makes me realize that the giant is only a shadow.
+                </p>
+                <p>
+                    No exam is really difficult after studying. No place seems 
+                    unreachable after one has been there. No city is hostile 
+                    after settling in.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

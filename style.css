@@ -1,0 +1,155 @@
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: serif;
+  font-weight: normal;
+}
+
+/* Container for the links */
+.links {
+  margin-top: 10px; /* Space above the links */
+}
+
+.link-item {
+  text-decoration: none; /* No underline by default */
+  color: #000; /* Black text color */
+  margin: 0 10px; /* Space between the links */
+  font-weight: bold; /* Bold text */
+  color: gray;
+}
+
+.link-item:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: lightgray;
+}
+
+.back-button .arrow {
+  font-size: 20px;  /* Adjust the size of the arrow */
+  color: black;  /* Black color for the arrow */
+}
+
+.book-list {
+  margin-top: 20px;
+}
+
+.book-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+  width: 100px;
+  height: auto;
+  max-width: 100%; /* Ensure responsiveness */
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.book-description {
+  flex: 1;
+}
+
+.book-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.book-author {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.book-summary {
+  color: #666;
+}
+
+.book-counter {
+  text-align: right;  
+  margin-bottom: 20px;
+  font-size: 18px;  /* Font size for the counter */
+  color: #333;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  display: none; /* Hidden by default */
+}
+
+.scroll-to-top:hover {
+  background-color: #555;
+}
+
+.thought-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.thought-item h3 {
+  margin: 0;
+  color: #333;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+.thought-item h4 {
+  margin: 2px 0;
+  color: #555;
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+
+.thought-item p {
+  margin: 10px 0 0;
+  color: #666;
+  font-family: Georgia, serif;
+}
