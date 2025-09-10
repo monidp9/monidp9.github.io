@@ -93,6 +93,12 @@ h1, h2, h3 {
   margin-bottom: 10px;
 }
 
+.book-read {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
 .book-summary {
   color: #666;
 }
