@@ -7,29 +7,22 @@
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="pub/logo.png" type="image/png">
         <link rel="human-json" href="/human.json">
-
-        <style>
-            #sort-text {
-                cursor: pointer;
-                color: blue;
-                text-decoration: underline;
-                float: right;
-                margin: 10px;
-            }
-        </style>
     </head>
     <body>
-	    <h1><a href="index.html" style="text-decoration:none; color: black;">Monteiro</a></h1>
+        <header>
+            <h1><a href="index.html">Monteiro</a></h1>
+            <nav>
+                <a href="index.html">ABOUT</a>
+                <a href="books.html" aria-current="page">BOOKS</a>
+                <a href="blog.html">BLOG</a>
+            </nav>
+        </header>
         <h2>My library</h2>
         <p>
             A list of books with a brief personal opinion and rating.
         <hr>
         <span id="sort-text">sort by rating</span>
         <div class="container">
-            <!-- Back button -->
-            <a href="index.html" class="back-button">
-                <span class="arrow">Back</span>
-            </a>
     
             <!-- Book list -->
 			<div class="book-list">

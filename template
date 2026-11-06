@@ -8,8 +8,14 @@
 <link rel="human-json" href="/human.json">
 </head>
 <body>
-<h1><a href="index.html">SITE NAME HERE</a></h1>
-<hr>
+<header>
+<h1><a href="index.html">Monteiro</a></h1>
+<nav>
+<a href="index.html">ABOUT</a>
+<a href="books.html">BOOKS</a>
+<a href="blog.html">BLOG</a>
+</nav>
+</header>
 <h2>PAGE TITLE HERE</h2>
 <p>
 This is where you write.
