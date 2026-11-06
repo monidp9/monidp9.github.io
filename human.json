@@ -1,5 +1,18 @@
 {
     "version": "0.1.1",
     "url": "https://monteirodelprete.com",
-    "vouches": []
+    "vouches": [
+        {
+            "url": "https://blog.jsbarretto.com",
+            "vouched_at": "2026-11-06"
+        },
+        {
+            "url": "https://neilzone.co.uk",
+            "vouched_at": "2026-11-06"
+        },
+        {
+            "url": "https://wapl.es",
+            "vouched_at": "2026-11-06"
+        }
+    ]
 }
